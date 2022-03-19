@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sf pro text, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+}
+#principal {
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+  padding: 10px;
+}
+h5 {
+  text-align: center;
+  font-size: 0.9em;
+}
+header h5::after {
+  content: "";
+  display: block;
+  margin-top: 15px;
+  height: 1px;
+  width: 300px;
+  background-color: rgb(204, 204, 204);
+}
+section {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+section img {
+  width: 50px;
+}
+div#informacoes-form {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px 0px;
+}
+div#componentes-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 340px;
+  height: auto;
+  box-sizing: border-box;
+}
+
+::placeholder {
+  
+}
+input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  height: 50px;
+  outline: none;
+  border: 1px solid black;
+  padding-left: 40px;
+  display: flex;
+  font-size: 1.1em;
+}
+.input {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.input i {
+  position: absolute;
+  left: 13px;
+  color: gray;
+  font-size: 0.8em;
+}
+input[type="submit"] {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: #a435f0;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #7325A3;
+}
+div#complementos-form
+{
+    margin-top: 8px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+div#complementos-form span{
+    color: black;
+}
+div#complementos-form p
+{
+    color: #3F18B7;
+    cursor: pointer;
+}
+div#complementos-form p:hover
+{
+    color: #2a107a;
+}
+#cadastro
+{
+   
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap: 8px;
+    margin-top: 15px;
+}
+#cadastro span
+{
+    color: #5b2bd6;
+    font-weight: bold;
+    cursor: pointer;
+}
+#cadastro span:hover
+{
+    color: #401B9C;
+    
+}
+span#cadastre-se
+{
+    text-decoration: underline;
+}
